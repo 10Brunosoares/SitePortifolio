@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/1ef09bf377.js"
+            crossorigin="anonymous"></script>
+    <style>
+        .foto-perfil{
+            heigth:100%;
+            width:auto;
+            max-width:100%;
+            border-radius:50%;
+        }
+        .corPrimaria{
+            background-color: #18bc9c;
+        }
+        .corSecundaria{
+            background-color: #2c3e50;
+        }
+        p {
+            font-family:Lato,'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: black !important;
+        }
+        .icones{
+            pedding-left:5px;
+        }
+        .titulosBrancos{
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-buttom: 20px;
+            text-transform: uppercase;
+            font-weigth: 700;
+            color: white;
+        }
+        .titulosVerdes{
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-buttom: 20px;
+            text-transform: uppercase;
+            font-weigth: 700;
+            color: #18bc9c;
+        }
+        .textoBranco{
+            color: white !important;
+        }
+        .jumbotron{
+            margin-bottom: 0px;
+        }
+        .textFooter{
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
+</head>
+<body>
+<nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand textoBranco" href="#">Bruno Oliveira Soares</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link textoBranco" href="#contatos">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="jumbotron text-center corPrimaria">
+    <div class="container">
+        <img class="foto-perfil" src="https://i.ibb.co/SXGKzms/imagem.jpg" alt="">
+        <h1 class="jumbotron-heading textoBranco">Bruno Oliveira Soares</h1>
+        <p class="lead textoBranco">Analista de Planejamento Digital | Product Owner | Analista de BI | Analista de Dados
+            em Python | Administrador</p>
+        <p>
+            <a href="#contatos" class="btn btn-dark my-2 ">Contato</a>
+        </p>
+        <a href="https://www.linkedin.com/in/bruno-oliveira-soares-231552163/"><i class="fab fa-linkedin textoBranco"></i></a>
+        <a href="https://github.com/10Brunosoares"><i class="icones fab fa-github textoBranco"></i></a>
+        <a href="https://instagram.com/10brunosoares?igshid=YmMyMTA2M2Y="><i class="icones fab fa-instagram textoBranco"></i></a>
+    </div>
+</section>
+<div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+        <h2 class="jumbptron-heading text-center titulosVerdes">Projetos</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top"
+                         data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                         alt="Thumbnail [100%x225]" src=https://i.ibb.co/5hhqyym/Elai-es2022.png"
+                         data-holder-rendered="true"
+                         style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                    <div class="card-body">
+                        <p class="card-text">Esse é um projeto que desenvolvi usando Python. No qual utilizei as
+                            bibliotecas:
+                        </p>
+                        <ul>
+                            <li>Pandas</li>
+                            <li>Requests</li>
+                            <li>json</li>
+                        </ul>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="https://github.com/10Brunosoares/Eleicao2022">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                                </a>
+                                <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Sobre Mim -->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="conteiner">
+            <h2 class="class jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead textoBranco">Olá, meu nome é Bruno e trabalho como analista a 7 anos,
+                sou estudante de adiministração pela UNOPAR (Universidade Norte de Paraná). Atualmente trabalho como Analista de Planejamento Digital
+            e Product Owner (PO) no desenvolvimento de uma ferramenta de vendas digital via AppWeb. Atuo também como analista de BI, onde, desenvolvo dashboard para acompanhamento de KPI's de vendas.</p>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="jumbotron text-center" style="background-color:white !important">
+        <div class="class conteiner" id="depoimentos">
+            <h2 class="jumbotron-heading text-center titulosVerdes">
+                Depoimentos
+            </h2>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0"> <!-- Inserir o depoimento --> </p>
+                <footer class="blockquote-footer"> <!-- Inserir cargo da pessoa --> <cite title="Source Title">
+                <!-- Inserir onde ela trabalha --> </cite>
+                </footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section  class="corPrimaria" id="contatos">
+        <div>
+            <div class="conteiner-fuid">
+                <h3 style="padding-top:60px" class="text-center titulosBrancos">E-mail de Contato</h3>
+                <a href="malito:brunosoares1050@outlook.com">
+                <h4 style="padding-bottom:60px;
+                margin-bottom:0px;" class="text-center">👉brunosoares1050@outlook.com👈</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- Copyrigth ou footer -->
+<footer class="text-center corSecundaria textFooter">
+<p class='textoBranco'>Copyrigth ₢ 2022 Data Science</p>
+</footer>
+</body>
+</html>
